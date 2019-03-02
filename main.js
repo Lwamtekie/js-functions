@@ -19,6 +19,22 @@ namePrinter('lwam', 'tekie');
 namePrinter('john', 'doe');
 
 const nuggetizer = (animal) => {
-  return `processed ${animal}`;
+    return `processed ${animal}`;
 };
 console.log(nuggetizer('pig'));
+
+
+const dogBreed = (dogName) => {
+    return `my favorite dog is breed ${dogName}`;
+};
+console.log(dogBreed)
+console.log(`my foavorite dog is bull dog`);
+
+
+
+
+
+
+
+
+dogBreed();
