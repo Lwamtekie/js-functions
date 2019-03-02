@@ -17,3 +17,8 @@ const namePrinter = (firstName, lastName) => {
 };
 namePrinter('lwam', 'tekie');
 namePrinter('john', 'doe');
+
+const nuggetizer = (animal) => {
+  return `processed ${animal}`;
+};
+console.log(nuggetizer('pig'));
